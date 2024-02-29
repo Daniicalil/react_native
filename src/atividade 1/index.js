@@ -1,16 +1,18 @@
-import { View, Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 import styles from './styles'
 
-// import logo from './assets/002-1-react-native.png';
+import Saudacoes from './saudacoes'
 
 export default function Props ({mensagem}) {;
     return(
         <View style={styles.container}>
-            {/* <Image source={logo} style={{ width: '100%', height: '15%'}} /> */}
+            {/* <Image style={styles.image} source={require('../assets/002-1-react-native.png')} /> */}
             <Text style={styles.paragraph}>
                 Exemplo 2 {mensagem}
             </Text>
         </View>
     );
 }
+
+
 
