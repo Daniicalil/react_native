@@ -1,10 +1,17 @@
-import { View } from "react-native";
+import { View, Text } from "react-native";
 
-export default function Saudacoes() {
+const Saudacoes = (props) => {
+    return(
     <View>
-        <Saudacoes name='Mario' />
-        <Saudacoes name='Maria' />
-        <Saudacoes name='Bruna' />
-        <Saudacoes name='Bruno' />
+        <Text>{props.nome}</Text>
+        <Text>{props.nome}</Text>
+        <Text>{props.nome}</Text>
+        <Text>{props.nome}</Text>
     </View>
+    )
 }
+
+export default function Props ({mensagem}) {;
+    return(
+        
+    )}
