@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 
 export default styles = StyleSheet.create({
-  container: {
+    container: {
         flex: 1,
         flexDirection: "column",
         justifyContent: 'center',
@@ -15,7 +15,7 @@ export default styles = StyleSheet.create({
         textAlign: 'center',
         color: '#1565c0',
     },
-    image: {
+    logo: {
         width: '90%',
         height: '15%',
         margin: 10,
