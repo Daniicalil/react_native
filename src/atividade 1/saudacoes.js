@@ -1,17 +1,10 @@
 import { View, Text } from "react-native";
+import styles from "./styles";
 
-const Saudacoes = (props) => {
+export default function Saudacoes({saudacao}) {
     return(
-    <View>
-        <Text>{props.nome}</Text>
-        <Text>{props.nome}</Text>
-        <Text>{props.nome}</Text>
-        <Text>{props.nome}</Text>
-    </View>
+        <View style={styles.container}>
+            <Text>{saudacao}</Text>
+        </View>
     )
 }
-
-export default function Props ({mensagem}) {;
-    return(
-        
-    )}

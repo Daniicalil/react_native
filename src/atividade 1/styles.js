@@ -1,8 +1,9 @@
 import { StyleSheet } from "react-native";
 
-const styles = StyleSheet.create({
+export default styles = StyleSheet.create({
   container: {
         flex: 1,
+        flexDirection: "column",
         justifyContent: 'center',
         backgroundColor: '#e3f2fd',
         padding: 8,
@@ -21,4 +22,3 @@ const styles = StyleSheet.create({
     },
 });
 
-export default styles;

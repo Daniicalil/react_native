@@ -1,18 +1,15 @@
 import { View, Text, Image } from 'react-native';
-import styles from './styles'
 
-import Saudacoes from './saudacoes'
+import Saudacoes from './saudacoes';
 
-export default function exemplo {;
+export default function Atividade_1 ({saudacao}) {
     return(
-        <View style={styles.container}>
-            {/* <Image style={styles.image} source={require('../assets/002-1-react-native.png')} /> */}
-            <Text style={styles.paragraph}>
-                Exemplo 2 
-            </Text>
+        <View>
+            <Saudacoes saudacao={'Olá Mario!'}/>
+            <Saudacoes saudacao={'Olá Maria!'}/>
+            <Saudacoes saudacao={'Olá Bruna!'}/>
+            <Saudacoes saudacao={'Olá Bruno!'}/>
         </View>
     );
 }
-
-
 
