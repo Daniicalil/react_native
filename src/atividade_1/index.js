@@ -4,7 +4,7 @@ import Saudacoes from './saudacoes';
 
 import styles from './styles';
 
-import logo from './';
+import logo from '../../assets/002-1-react-native.png';
 
 export default function Atividade_1 () {
   return(
