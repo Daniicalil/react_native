@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         fontSize: 50,
     },
     botaoZerar: {
-        width: '70%',
+        width: '55%',
         backgroundColor: '#000',
         alignItems: 'center',
         margin: 10,
