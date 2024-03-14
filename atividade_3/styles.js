@@ -2,18 +2,18 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+        border: '5px solid #000', 
         backgroundColor: '#f5f5f5',
-        width: '100%',
+        width: '70%',
         alignItems: 'center',
         borderRadius: 20,
         display: 'flex',
-        
+        justifyContent: 'center',
     },
     containerB: {
         flexDirection: 'row',
         justifyContent: 'center',
-
+        alignItems: 'center',
     },
     titulo: {
         fontSize: 30,
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         fontSize: 50,
     },
     botaoZerar: {
-        width: '40%',
+        width: '70%',
         backgroundColor: '#000',
         alignItems: 'center',
         margin: 10,

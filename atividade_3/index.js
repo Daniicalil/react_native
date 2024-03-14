@@ -16,13 +16,11 @@ export default function Atividade_3 () {
     function retirada() {
         const ret = numero - 1;
         setNumero(ret);
-        // console.log(numero);
     }
 
     function zerar() {
-        const zer = numero = 0;
+        const zer = 0;
         setNumero(zer);
-        // console.log(numero);
     }
 
     return(
