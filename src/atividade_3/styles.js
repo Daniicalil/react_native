@@ -27,18 +27,21 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         margin: 10,
         justifyContent: 'space-between',
+        borderRadius: 20,
+        padding: 10,
     },
     txtBotao: {
         color: '#f5f5f5',
-        fontSize: 50,
+        fontSize: 30,
     },
     botaoZerar: {
-        width: '55%',
+        width: '70%',
         backgroundColor: '#000',
         alignItems: 'center',
         margin: 10,
         justifyContent: 'space-between',
         borderRadius: 30,
+        padding: 10,
     }
 });
 

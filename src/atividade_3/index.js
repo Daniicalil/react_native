@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity } from 'react-native';
+import { View, Text, TouchableOpacity, Pressable } from 'react-native';
 
 import styles from './styles';
 
@@ -29,30 +29,30 @@ export default function Atividade_3 () {
 
                 <View style={styles.containerB}>
 
-                <TouchableOpacity 
+                <Pressable
                     style={styles.botao} 
                     onPress={() => retirada()}
                 >
                     <Text style={styles.txtBotao}>-</Text>
-                </TouchableOpacity>
+                </Pressable>
 
                 <Text style={styles.titulo}> {numero}</Text>
 
-                <TouchableOpacity 
+                <Pressable 
                     style={styles.botao} 
                     onPress={() => incremento()}
                 >
                     <Text style={styles.txtBotao}>+</Text>
-                </TouchableOpacity>
+                </Pressable>
 
                 </View>
 
-                <TouchableOpacity 
+                <Pressable 
                     style={styles.botaoZerar} 
                     onPress={() => zerar()}
                 >
                     <Text style={styles.txtBotao}>Zerar</Text>
-                </TouchableOpacity>
+                </Pressable>
 
             </View>
         
