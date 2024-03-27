@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
         width: '70%',
         color: '#e53935',
         borderRadius: 10,
+        marginBottom: 20,
     },
     botao: {
         width: '70%', 
@@ -35,8 +36,16 @@ const styles = StyleSheet.create({
         backgroundColor: '#b71c1c', 
         alignItems: 'center', 
         margin: 18, 
+        marginTop: 6,
         borderRadius: 20, 
     },
+    nomesobrenome: {
+        textAlign: 'left',
+        display: 'flex',
+        alignItems: 'flex-start',
+        justifyContent: 'flex-start',
+    },
+   
 });
 
 export default styles;
